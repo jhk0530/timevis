@@ -19,3 +19,6 @@ ERRORs
 3) $  operator is invalid or atomic vectors :... yaml ???? 
 
 
+
+
+TIP 1 ) replace x to other name ( input )

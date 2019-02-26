@@ -13,9 +13,9 @@ HTMLWidgets.widget({
     var timeline = new vis.Timeline(container, items, options);
 
     return {
-      renderValue: function(x) { 
-		timeline.setItems(x.items); 
-		timeline.setOptions(x.options);
+      renderValue: function(input) { 
+		timeline.setItems(input.items); 
+		timeline.setOptions(input.options);
 	  },
       resize : function(width, height) { }// not yet 
     };
