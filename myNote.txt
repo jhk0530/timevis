@@ -1,0 +1,21 @@
+Rstudio ¿¡¼­ new project. 
+new directory, R package using devtools
+
+directory name : timevis
+1) write timevis.R
+2) make Directory : inst, inst/htmlwidgets, lib
+3) generate file  : timevis.js, timevis.yaml
+4) library set : vis-4.20.0.css, vis-4.20.0.js , img folder and content ( network ) * can't run with vis-4.21.
+5) write timevis.yaml !!! IMPORTANT !!! A LOTS OF ERROR 
+6) write timevis.js
+7) package build ctrl+shift+b
+8) build example data 
+data <- list(list(content = "today", start = Sys.Date()),
+             list(content = "tomorrow", start = Sys.Date() + 1))
+
+ERRORs
+1) not return any results : wrong yaml, js file location ( inside htmlwidgets, same with lib )
+2) yaml finish line : remove last line ( tiny indent has auto -generated )
+3) $  operator is invalid or atomic vectors :... yaml ???? 
+
+

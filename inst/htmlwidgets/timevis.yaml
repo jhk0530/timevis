@@ -1,0 +1,6 @@
+dependencies:
+ - name: vis
+   version: 4.20.0
+   src: htmlwidgets/lib/vis-4.20.0
+   script: vis_4.20.0.js
+   stylesheet: vis_4.20.0.css 
